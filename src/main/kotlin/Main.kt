@@ -8,7 +8,7 @@ fun main() {
     val heroName = getInput("Enter the name of your Hero:", "")
     val enemyName = getInput("Enter the name of your Enemy:", "")
 
-    val hero = Hero(heroName, hp = 80, def = 7)
+    val hero = Hero(heroName, hp = 80, def = 3)
     val enemy = Enemy(enemyName, hp = 100, def = 5)
 
     val game = Game(hero, enemy)
